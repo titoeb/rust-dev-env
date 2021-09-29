@@ -1,1 +1,4 @@
-rust-fun/
+# Don't copy actual code
+rust/
+# Don't copy run-script with credentials
+run-dev-env.sh
