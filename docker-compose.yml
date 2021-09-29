@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  dev:
+    build: .
+    command: "tail -f /dev/null"
+    volumes:
+      - ./rust-fun:/rust-fun
+    environment:
+      - USER=TIM
+    tty: true
